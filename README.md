@@ -36,4 +36,4 @@ $ npm run lint
 $ npm run prod
 ```
 
-Ready to deploy 🚀
+
