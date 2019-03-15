@@ -1,1 +1,161 @@
 @import '../../assets/css/variables.css';
+
+
+.searchfilter{
+    border:1px solid #50A6FF;
+    margin: 10px;
+}
+
+.searchfilterhead{
+    border:1px solid #50A6FF;
+    background-color: #50A6FF;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+
+.searchip{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+
+.searchbtn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #50A6FF;
+}
+
+.profile{
+    border: 1px solid #50A6FF;
+    font-size: 18px;
+    color: black;
+    height: auto;
+
+    margin: 10px;
+}
+
+.searchpro{
+    border: 1px solid #e5e5e5;
+    vertical-align: middle;
+    justify-content: center;
+    flex-flow: column;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.userprofiles{
+    display: inline-block;
+    width: 30%;
+    margin: 8px;
+    vertical-align: inherit;
+    height: 400px;
+    max-height: auto;
+    BORDER: 1px solid #ccc;
+    background: white;
+    box-shadow: 0px 1px 2px 1px #e4e4e4;
+}
+
+.gitusers{
+    width: 100%;
+    height: 340px;  
+}
+.username{
+    font-size: 20px;
+    color: black;  
+}
+
+.zeroresult{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.emptyinput{
+    font-size: 18px;
+    color: red;
+}
+.starimg{
+    width: 10px;
+    margin: 0px 2px;
+}
+.userimg{
+    border-radius: 50%;
+    width: 110px;
+    height: auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.threeinfo{
+    display: inline-flex;
+    width: 100%;
+}
+
+.star{
+    width: 30%;
+    margin:10px;
+    border:1px solid #e5e5e5;
+    font-size: 12px;
+    border-radius: 9px;
+}
+
+.fork{
+    width: 30%;
+    margin:10px;
+    border:1px solid #e5e5e5;
+    font-size: 12px;
+    border-radius: 9px;
+}
+.issue{
+    width: 30%;
+    margin:10px;
+    border:1px solid #e5e5e5;
+    font-size: 12px;
+    border-radius: 9px;
+}
+
+
+.description{
+    font-size: 13px;
+    color: black;
+    margin: 10px;
+    width: 90%;
+    box-sizing:border-box; 
+}
+
+.viewprofilebtn{
+    width: 100%;
+    height: 60px;
+}
+
+.profilebtn{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    color: black;
+    background-color: #ffffff;
+    border: 0px solid white;
+}
+
+.profilebtn:hover{
+    background-color: #50A6FF;
+    color: black;
+}
+
+.heading{
+    font-size: 18px;
+    background-color: #50A6FF;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  #50A6FF;
+}

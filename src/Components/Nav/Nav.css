@@ -158,6 +158,7 @@
 		&.visible {
 			transform: translate(0) scale(1) perspective(400px) rotateY(0);
 			transition-delay: 0.3s;
+			display: none;
 		}
 
 		& .logo {
